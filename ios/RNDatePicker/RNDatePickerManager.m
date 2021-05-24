@@ -44,5 +44,9 @@ RCT_CUSTOM_VIEW_PROPERTY(textColor, NSString, DatePicker)
 {
     [view setTextColorProp:[RCTConvert NSString:json]];
 }
+RCT_CUSTOM_VIEW_PROPERTY(rtl, BOOL, DatePicker)
+{
+    [view setRtlProp:[RCTConvert BOOL:json]];
+}
 
 @end
