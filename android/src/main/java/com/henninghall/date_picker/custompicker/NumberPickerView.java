@@ -345,10 +345,9 @@ public class NumberPickerView extends View  {
 
         mPaintText.setTextAlign(Align.RIGHT);
 
-        if ("ar_DZ".equals(State.state.getLocaleLanguageTag())) {
-            Typeface typeFace =Typeface.createFromAsset(getContext().getAssets(),"myfont.ttf");
+            Typeface typeFace =Typeface.createFromAsset(getContext().getAssets(),"montserratregular.ttf");
             mPaintText.setTypeface(typeFace);
-        }
+        
            // Typeface typeFace =Typeface.createFromAsset(getContext().getAssets(),"myfont.ttf");
             //mPaintText.setTypeface(typeFace);
        //Typeface typeFace =Typeface.createFromAsset(getContext().getAssets(),"myfont.ttf");
