@@ -25,6 +25,7 @@ export default class DatePickerIOS extends React.Component {
 
   render() {
     const { props } = this
+    console.log("props===", props)
     return (
       <RCTDatePickerIOS
         testID={props.testID}
@@ -48,6 +49,7 @@ export default class DatePickerIOS extends React.Component {
         onStartShouldSetResponder={() => true}
         onResponderTerminationRequest={() => false}
         textColor={props.textColor}
+        rtl={props.rtl}
       />
     )
   }
@@ -56,6 +58,7 @@ export default class DatePickerIOS extends React.Component {
 const styles = StyleSheet.create({
   datePickerIOS: {
     height: 216,
-    width: 310
+    width: 310,
   },
 })
+
