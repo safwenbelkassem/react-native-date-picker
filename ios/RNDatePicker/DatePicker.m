@@ -107,6 +107,16 @@
         [self setColor:hexColor];
     }
 }
+- (void)setRtlProp:(BOOL *)rtl
+{
+    
+    NSLog(rtl? @"rtl ":@"nortl");
+        if(rtl){
+        [[UIView appearance] setSemanticContentAttribute:UISemanticContentAttributeForceRightToLeft];
+        }else{
+            [[UIView appearance] setSemanticContentAttribute:UISemanticContentAttributeForceLeftToRight];
+        }
+}
 
 
 RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
