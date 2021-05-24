@@ -345,7 +345,7 @@ public class NumberPickerView extends View  {
 
         mPaintText.setTextAlign(Align.RIGHT);
 
-            Typeface typeFace =Typeface.createFromAsset(getContext().getAssets(),"montserratregular.ttf");
+            Typeface typeFace =Typeface.createFromAsset(getContext().getAssets(),"montserrat.ttf");
             mPaintText.setTypeface(typeFace);
         
            // Typeface typeFace =Typeface.createFromAsset(getContext().getAssets(),"myfont.ttf");
