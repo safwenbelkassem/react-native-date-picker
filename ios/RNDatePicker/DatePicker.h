@@ -10,6 +10,7 @@
 @interface DatePicker : UIDatePicker
 
 - (void)setTextColorProp:(NSString *)hexColor;
+- (void)setRtlProp:(BOOL *)rtl;
 
 @end
 
