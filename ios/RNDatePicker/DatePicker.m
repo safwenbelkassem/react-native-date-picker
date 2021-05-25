@@ -9,7 +9,7 @@
 
 #import "RCTUtils.h"
 #import "UIView+React.h"
-
+#import "UILabel+UIDatePickerLabels.h"
 @interface DatePicker ()
 
 @property (nonatomic, copy) RCTBubblingEventBlock onChange;
